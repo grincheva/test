@@ -9,8 +9,6 @@ Image annotation is a key part of training computer vision models. For self-driv
 
 In this tutorial, I’ll show you three simple and practical ways to manually annotate images for **instance segmentation**. I used [Supervisely](https://supervisely.com/) and a basic dashcam photo to keep things clear and easy to follow.
 
-----------
-
 
 
 ## 1. Overlay Annotation _(a.k.a. Layering)_
@@ -52,7 +50,6 @@ I use the **Polygon Tool** here, but you are free to choose another tool.
 -   Not always best for training unless post-processed
    
 
-----------
 
 ## 2. Snapping Annotation _(a.k.a. Puzzle logic)_
 
@@ -92,7 +89,6 @@ This time, shapes should fit together like puzzle pieces - no overlaps. A key ch
 -   Requires careful clicking
     
 
-----------
 
 ## 3. Splitting _(Pixel-perfect mode)_
 
@@ -150,7 +146,6 @@ These options control how new shapes interact with the existing ones.
 -   Bigger file sizes
     
 
-----------
 
 ## Comparison Table
 
@@ -161,7 +156,6 @@ These options control how new shapes interact with the existing ones.
 | Snapping | Puzzle        | high        | moderate  | Roads, cars, clear shapes         |
 | Mask     | Pixel mapping | pixel-perfecr      | slow  | Evaluation, fine segmentation     |
 
-----------
 
 ## Wrap-up
 
